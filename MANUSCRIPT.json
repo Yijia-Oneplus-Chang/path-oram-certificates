@@ -1,0 +1,39 @@
+{
+  "title": "The Minimum Bucket Capacity for Reliable Path ORAM",
+  "release": "2026-11-02-scope-certificates",
+  "prepared_at_utc": "2026-11-02T15:32:09.021239+00:00",
+  "manuscript_pdf": {
+    "file": "main.pdf",
+    "sha256": "3097cb0377b431da4cbd7f04401e5226d239d15d2768ee32c460acaf1d654cb9"
+  },
+  "active_manuscript_source_sha256": {
+    "current/paper/abstract.tex": "aa53e1d885990872e18a3e1f62d9f67205697afc27546e3e263cf5e7d97b9d76",
+    "current/paper/appendix.tex": "8769e35590be1c5cfe7b2265921863e079d8bed76a16e57dd4a6d858c06bfd14",
+    "current/paper/discussion.tex": "5dda8e110eb1e6f77fec425b74e8b4f5482a99d53fcd3eecc5fc1a61b1fbb144",
+    "current/paper/four-sufficiency.tex": "50ac17fb357b7cd92a3725bc99119b76eb3ba248ad125f45d2cf5e5e0ba49a4d",
+    "current/paper/general-packing.tex": "a04c2e98c2cb89e07cc50d8d2462215d10a8ed051f0a69d13a40cb8f1e137696",
+    "current/paper/introduction.tex": "1b2a85f3748f09b16a81a7a76855167dcb2e6837868da8931df472cd269ceb1f",
+    "current/paper/lower.tex": "b7d3cc1bb03ed39ef1b5a6ea9eb0423b7b9b08cd9c18b1c8fbcead2a19a5221a",
+    "current/paper/main.tex": "44dd99b827df766f8a27e3e0dc87d437c47508f057ba0800265e822da4736fc9",
+    "current/paper/model.tex": "a27659762d11e4d11db1561c7aa3166088a96e9c702bdd8079ccb7b996afd59b",
+    "current/paper/references.bib": "3ea016ec83d9f71c380ee1773c18e7054bc936f2b29aa70e40e29802a0e89cdd",
+    "current/paper/related-work.tex": "8d2c1ad4c87ce878e77e3ebc900ff641273e4d2b5b79ebf3b72516f75839f256",
+    "current/paper/results.tex": "f5b225b5d79775b4b58e21a0c4d664c2b5e5da671c9a479c420a03327593afba",
+    "current/paper/small-case-table.tex": "189181e7080cc0bfec9a22b9892c0218f1c8ae05ddca377f80716875d778dd3a",
+    "current/paper/technical-overview-backup.tex": "536d431a544988cf3127997a90f8c0720460c0c67ec015876c7213232edc50da",
+    "current/paper/technical-overview.tex": "371124da0ea0f91ec3b7c3a989c5275e6d790073c36b7ec58c7afcf74e035829"
+  },
+  "verification": {
+    "command": "python3 verify_certificates.py",
+    "python_version": "3.9.6",
+    "system": "Darwin",
+    "machine": "arm64",
+    "elapsed_seconds": 0.0933,
+    "note": "Elapsed time is from one run on the release machine, not a performance guarantee."
+  },
+  "proof_locations": {
+    "z4": "Lemma 4.21 and Appendix B, Algorithm 1",
+    "z3": "Lemma 5.5 and Appendix B, Algorithm 2",
+    "lower_error_arithmetic": "Appendix C"
+  }
+}

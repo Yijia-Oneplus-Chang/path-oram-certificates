@@ -1,0 +1,10 @@
+PASS: saved certificate matches recomputation in every field.
+PASS: Z=4 finite conditions (Lemma 4.21; Appendix B, Algorithm 1).
+M_12 upper = 1334003097123611627266701/1208925819614629174706176 < 111/100 < 23/20
+B_12 upper = 1010971287715732434488932565388985262516425950508827/1754532715615748953303523641675897765096947017842688 < 57621/100000
+Closure margin = 19687/720300000 > 0
+PASS: Z=3 all 15 rows agree under the mass and tail formulas.
+PASS: Z=3 finite local surplus (Lemma 5.5; Appendix B, Algorithm 2).
+Lower-distribution mean = 775231701030647/140737488355328 > 11/2
+PASS: lower-bound error margins (Appendix C).
+11/2 - 1/8192 - 3/64 = 44671/8192 > 5
