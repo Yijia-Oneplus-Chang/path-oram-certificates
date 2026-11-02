@@ -1,7 +1,7 @@
 # Exact Finite Certificates for Path ORAM
 
 This package verifies the finite arithmetic premises used in **The Minimum
-Bucket Capacity for Reliable Path ORAM**, by Yijia Chang and Man Ho Allen Au.
+Bucket Capacity for Reliable Path ORAM**.
 It recomputes both certificates and compares every stored entry with the
 supplied table. The paper proves why these computations give valid bounds
 and how the finite premises imply the general results.
